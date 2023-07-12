@@ -189,88 +189,29 @@ font-family: 'Fraunces', serif;*/
   width: 380px;
 }
 
-.card1 img {
+.card-detail img {
   border-radius: 100px;
   width: 100px;
 }
 
-.card1 p {
+.card-detail p {
   font-size: 18px;
   margin-top: 48px;
   margin-bottom: 54px;
   font-family: 'Barlow', sans-serif;
   color: hsl(213, 9%, 39%);
   line-height: 24px;
+  width: 400px;
 }
 
-.card1 h4 {
+.card-detail h4 {
   font-size: 24px;
   margin-bottom: 14px;
   font-family: 'Fraunces', serif;
   color: hsl(212, 27%, 19%);
 }
 
-.card2 {
-  width: 380px;
-}
-
-.card2 img {
-  border-radius: 100px;
-  width: 100px;
-}
-
-.card2 p {
-  font-size: 18px;
-  margin-top: 48px;
-  margin-bottom: 54px;
-  font-family: 'Barlow', sans-serif;
-  color: hsl(213, 9%, 39%);
-  line-height: 24px;
-}
-
-.card2 h4 {
-  font-size: 24px;
-  margin-bottom: 14px;
-  font-family: 'Fraunces', serif;
-  color: hsl(212, 27%, 19%);
-}
-
-.card3 {
-  width: 380px;
-}
-
-.card3 img {
-  border-radius: 100px;
-  width: 100px;
-}
-
-.card3 p {
-  font-size: 18px;
-  margin-top: 48px;
-  margin-bottom: 54px;
-  font-family: 'Barlow', sans-serif;
-  color: hsl(213, 9%, 39%);
-  line-height: 24px;
-}
-
-.card3 h4 {
-  font-size: 24px;
-  margin-bottom: 14px;
-  font-family: 'Fraunces', serif;
-  color: hsl(212, 27%, 19%);
-}
-
-.card3 span {
-  color: hsl(210, 4%, 67%);
-  font-family: 'Barlow', sans-serif;
-}
-
-.card2 span {
-  color: hsl(210, 4%, 67%);
-  font-family: 'Barlow', sans-serif;
-}
-
-.card1 span {
+.card-detail span {
   color: hsl(210, 4%, 67%);
   font-family: 'Barlow', sans-serif;
 }
@@ -305,8 +246,13 @@ font-family: 'Fraunces', serif;*/
 
 .logo-ftr {
   margin-top: 100px;
-  width: 200px;
-  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-ftr img {
+  width: 300px;
 }
 
 .helpmenu {

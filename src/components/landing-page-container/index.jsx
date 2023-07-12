@@ -94,7 +94,7 @@ function Page() {
         <div className="content">
           <h2>CLIENT TESTMONIALS</h2>
           <div className="card">
-            <div className="card1">
+            <div className="card-detail">
               <img src={emily} />
               <p>
                 We put our trust in Sunnyside and they delivered,making sure our
@@ -103,7 +103,7 @@ function Page() {
               <h4>Emily R.</h4>
               <span>Marketing Director</span>
             </div>
-            <div className="card2">
+            <div className="card-detail">
               <img src={thomas} />
               <p>
                 Sunnyside's enthusiasm coupled with thier keen interest in our
@@ -112,7 +112,7 @@ function Page() {
               <h4>Thomas S.</h4>
               <span>Chief Operating Officer</span>
             </div>
-            <div className="card3">
+            <div className="card-detail">
             <img src={jennie} />
             <p>
               Incredible end result! Our sales increased over 400% when we
@@ -134,7 +134,9 @@ function Page() {
       </div>
       <div className="footer">
         <div className="lst-content">
-        <img className="logo-ftr" src={logo}/>
+        <div className="logo-ftr">
+          <img  src={logo}/>
+        </div>  
         <div className="helpmenu">
           <p>About</p>
           <p>Scervice</p>
